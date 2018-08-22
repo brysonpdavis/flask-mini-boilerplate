@@ -6,6 +6,5 @@ Super simple Flask boilerplate for small web applications, deployable to Heroku.
 $ heroku login
 $ heroku apps:create myapp
 $ heroku config:set FLASK_APP=myapp.py
-$ heroku config:set FLASK_APP=myapp.py
 $ git push heroku master
 ```
