@@ -3,8 +3,10 @@ Super simple Flask boilerplate for small web applications, deployable to Heroku.
 
 ### Deploying to Heroku
 ```sh
-$ heroku login
-$ heroku apps:create myapp
-$ heroku config:set FLASK_APP=myapp.py
-$ git push heroku master
+$ source venv/bin/activate
+(venv) $ heroku login
+(venv) $ heroku apps:create myapp
+(venv) $ heroku config:set FLASK_APP=myapp.py
+(venv) $ heroku local web # Test if your project runs locally!
+(venv) $ git push heroku master
 ```
